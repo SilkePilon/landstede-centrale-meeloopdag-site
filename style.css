@@ -1,170 +1,171 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .block {
-    min-height: 100vh;
-    padding: 120px 0;
-    font-size: 24px;
-    line-height: 42px;
-    box-sizing: border-box;
+  min-height: 100vh;
+  padding: 120px 0;
+  font-size: 24px;
+  line-height: 42px;
+  box-sizing: border-box;
 }
 
 .container {
-    width: 100%;
-    max-width: 1000px;
-    padding: 0 40px;
-    box-sizing: border-box;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: blue;
 }
 
 .light {
-    font-weight: 300;
-    font-size: 56px;
+  font-weight: 300;
+  font-size: 56px;
 }
 
 h1 {
-    font-size: 82px;
+  font-size: 82px;
 }
 
 h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* Hero
    ============================= */
 
 header.block {
-    background-image: url("images/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, .2);
-    color: white;
-    text-align: right;
-    font-size: 64px;
-    text-shadow: 0 15px 45px rgba(0, 0, 0, 1);
-    box-sizing: border-box;
-    line-height: 80px;
+  background-image: url("images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: right;
+  font-size: 64px;
+  text-shadow: 0 15px 45px rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  line-height: 80px;
 }
 
 /* Menu
    ============================= */
 
 .menu-block {
-    background-color: #3e3e3e;
-    text-align: center;
-    min-height: 0;
-    padding: 40px 0;
+  background-color: #3e3e3e;
+  text-align: center;
+  min-height: 0;
+  padding: 40px 0;
 }
 
 .menu {
-    display: flex;
-    gap: 0 80px;
-    justify-content: center;
+  display: flex;
+  gap: 0 80px;
+  justify-content: center;
 }
 
 .menu li {
-    list-style: none;
+  list-style: none;
 }
 
 .menu li a {
-    color: white;
-    text-decoration: none;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    transition: .2s;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  transition: 0.2s;
 }
 
 .menu li a:hover {
-    color: #ed135d;
+  color: #ed135d;
 }
 
 /* Intro
    ============================= */
 
 .intro {
-    color: white;
-    text-align: center;
-    font-weight: 300;
-    min-height: 0;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  min-height: 0;
 }
 
 /* Foto's
    ============================= */
 
 .photos {
-    display: flex;
-    padding: 0;
-    min-height: 0;
+  display: flex;
+  padding: 0;
+  min-height: 0;
 }
 
 .photos img {
-    width: 20%;
-    object-fit: cover;
-    height: 400px;
-    transition: .2s;
-    transform: scale(1, 1);
+  width: 20%;
+  object-fit: cover;
+  height: 400px;
+  transition: 0.2s;
+  transform: scale(1, 1);
 }
 
 .photos img:hover {
-    transform: scale(1.1, 1.1);
-    z-index: 2;
+  transform: scale(1.1, 1.1);
+  z-index: 2;
 }
 
 /* Banner
    ============================= */
 
 .banner {
-    text-align: center;
-    position: relative;
-    color: white;
-    font-size: 120px;
-    text-shadow: 0 15px 45px rgba(0, 0, 0, .4);
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 120px;
+  text-shadow: 0 15px 45px rgba(0, 0, 0, 0.4);
 }
 
 .banner h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .banner video {
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Footer
    ============================= */
 
 footer.block {
-    min-height: 0;
-    background-color: #3e3e3e;
-    color: white;
-    text-align: center;
+  min-height: 0;
+  background-color: #3e3e3e;
+  color: white;
+  text-align: center;
 }
 
 footer h2 {
-    font-weight: 300;
-    margin-bottom: 0;
-    font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 24px;
 }
 
 footer span {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 footer span a {
-    color: white;
+  color: white;
 }
